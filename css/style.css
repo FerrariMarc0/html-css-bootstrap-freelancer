@@ -1,0 +1,29 @@
+header, footer{
+    background: #2c3e50;
+}
+section:nth-child(odd){
+    background: #1abc9c;
+}
+section:last-child{
+    background: #3a5a6d;
+}
+.mx-1140{
+    max-width: 71.25rem;
+}
+.mx-1000{
+    max-width: 62.5rem;
+}
+#sub{
+    max-width: 5%;
+}
+
+@media screen and (min-width: 768px){
+    #burger{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .col-6 ul li:not(#burger){
+        display: none;
+    }
+}
