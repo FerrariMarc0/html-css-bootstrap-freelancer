@@ -7,14 +7,14 @@ section:nth-child(odd){
 section:last-child{
     background: #3a5a6d;
 }
-.mx-1140{
+label{
+    display: none;
+}
+.max-1140{
     max-width: 71.25rem;
 }
-.mx-1000{
+.max-1000{
     max-width: 62.5rem;
-}
-#sub{
-    max-width: 5%;
 }
 
 @media screen and (min-width: 768px){
