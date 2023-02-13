@@ -1,5 +1,8 @@
 header, footer{
-    background: #2c3e50;
+    background: #0e2842;
+}
+section{
+    padding: 1.25rem 0;
 }
 section:nth-child(odd){
     background: #1abc9c;
@@ -8,7 +11,28 @@ section:last-child{
     background: #3a5a6d;
 }
 label{
-    display: none;
+    visibility: hidden;
+}
+.bar{
+    min-width: 4.75rem;
+    height: .3125rem;
+    background-color: #ffffff;
+}
+.d-flex i{
+    line-height: .3125rem;
+}
+.social-icons{
+    border: 1px solid #ffffff;
+    padding: 15px 20px;   
+}
+#g-plus{
+    padding: .9375rem;
+}
+#twitt{
+    padding: .9375rem 1.0625rem;
+}
+.max-230{
+    max-width: 230px;
 }
 .max-1140{
     max-width: 71.25rem;
@@ -20,6 +44,9 @@ label{
 @media screen and (min-width: 768px){
     #burger{
         display: none;
+    }
+    .bar{
+        min-width: 8.125rem;
     }
 }
 @media screen and (max-width: 768px){
