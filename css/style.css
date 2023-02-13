@@ -1,10 +1,15 @@
 header, footer{
     background: #0e2842;
 }
+#burger{
+    border: 1px solid #ffffff;
+    padding: 5px 20px;
+    font-size: 1.25rem;
+}
 section{
     padding: 1.25rem 0;
 }
-section:nth-child(odd){
+section:nth-child(odd), #send{
     background: #1abc9c;
 }
 section:last-child{
@@ -23,6 +28,8 @@ label{
 }
 .social-icons{
     border: 1px solid #ffffff;
+}
+#fb{
     padding: 15px 20px;   
 }
 #g-plus{
@@ -31,6 +38,10 @@ label{
 #twitt{
     padding: .9375rem 1.0625rem;
 }
+#in{
+    padding: .9375rem 1.125rem;
+}
+
 .max-230{
     max-width: 230px;
 }
