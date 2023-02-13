@@ -1,0 +1,23 @@
+.bar{
+    min-width: 4.75rem;
+    height: .1875rem;
+    background-color: #ffffff;
+}
+.d-flex i{
+    line-height: .3125rem;
+}
+.social-icons{
+    border: 1px solid #ffffff;
+}
+#fb{
+    padding: 15px 20px;   
+}
+#g-plus{
+    padding: .9375rem;
+}
+#twitt{
+    padding: .9375rem 1.0625rem;
+}
+#in{
+    padding: .9375rem 1.125rem;
+}

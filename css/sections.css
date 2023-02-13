@@ -1,0 +1,12 @@
+section{
+    padding: 1.25rem 0;
+}
+section:nth-child(odd), #send{
+    background: #1abc9c;
+}
+section:last-child{
+    background: #3a5a6d;
+}
+label{
+    visibility: hidden;
+}

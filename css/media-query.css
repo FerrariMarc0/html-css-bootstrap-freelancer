@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px){
+    #burger{
+        display: none;
+    }
+    .bar{
+        min-width: 8.125rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .col-6 ul li:not(#burger){
+        display: none;
+    }
+}
